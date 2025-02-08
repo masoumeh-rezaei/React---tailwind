@@ -1,0 +1,58 @@
+@import "tailwindcss";
+@import "tailwindcss/preflight"
+@tailwind components;
+@tailwind utilities;
+@layer components{
+.primary-btn{
+  @apply  bg-gradient-to-r from-violet-500  bg-violet-300 border-2 border-violet-300 hover:scale-105 duration-200 text-white py-1 px-3 rounded-full mt-3 shadow-none hover:shadow-2xl;
+}
+}
+@layer components{
+  .shadow-1{
+    @apply  drop-shadow-[-15px_15px_15px_rgba(0,0,0,0.5)];
+  }
+  }
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+  font-family: 'Noto Sans','sans-serif' ;
+}
+.glass{
+  background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255,255,255,0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0,0.37);
+}
+.bg-primary-color{
+  @apply bg-gradient-to-l from-orange-800 to-orange-500
+}
+.text-primary1{
+  color: #5d60c1;
+}
+.text-dark1{
+  color: #1e1e1e;
+}
+.text-light1{
+  color: #f5f5f5;
+}
+.text-light-blue{
+  color: #dbedf7;
+}
+.bg-light-blue{
+  background-color: #dbedf7;
+}
+.bg-primary1{
+  background-color: #5d60c1;
+}
+.font-cursive{
+
+  cursive:'cursive'
+}
+
+.allura-regular {
+  font-family: "Allura", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
