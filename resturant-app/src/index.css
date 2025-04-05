@@ -1,7 +1,5 @@
 @import "tailwindcss";
-@import "tailwindcss/preflight"
-@tailwind components;
-@tailwind utilities;
+
 @layer components{
 .primary-btn{
   @apply  bg-gradient-to-r from-violet-500  bg-violet-300 border-2 border-violet-300 hover:scale-105 duration-200 text-white py-1 px-3 rounded-full mt-3 shadow-none hover:shadow-2xl;
@@ -53,6 +51,11 @@ body{
   font-family: "Allura", serif;
   font-weight: 400;
   font-style: normal;
+}
+@theme{
+  --breakpoint-lg: 64rem;
+  --breakpoint-xl: 70rem;
+  --breakpoint-2xl: 76rem;  
 }
 
 

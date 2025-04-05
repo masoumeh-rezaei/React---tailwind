@@ -27,7 +27,7 @@ export default function Footer(){
     return(
         <>
             <div>
-                <div className="container grid md:grid-cols-3 pb-20 pt-5 ">
+                <div className="container grid md:grid-cols-3 pb-20 pt-5 " id="information">
                     <div className="py-8 px-4">
                         <div className="flex">
                             <p className="text-3xl">MoonEat</p>

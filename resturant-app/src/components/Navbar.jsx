@@ -25,32 +25,32 @@ export default function Navbar(){
         {
             id:1,
             name : 'Home',
-            link: '#'
+            link: '#home'
         },
         {
             id:2,
-            name : 'Food',
-            link: '#'
+            name : 'About',
+            link: '#about'
         },
         {
             id:3,
-            name : 'Fast Food',
-            link: '#'
+            name : 'Our Menue',
+            link: '#menue'
         },
         {
             id:4,
-            name : 'ContactUs',
-            link: '#'
+            name : 'Testimonila',
+            link: '#testimonial'
         },
         {
             id:5,
             name : 'Information',
-            link: '#'
+            link: '#information'
         },
     ]
     return(
-        <div className="bg-light-blue ">
-            <div className="container m-auto flex justify-between items-center py-2 px-2">
+        <div className="bg-light-blue  ">
+            <div className="w-full mx-auto flex justify-between items-center py-2 px-10 fixed bg-light-blue z-50 opacity-75 ">
                 {/*logo */}
                 <div className="flex " data-aos='fade-down' data-aos-once='true'>
                     <p className="text-3xl">MoonEat</p>

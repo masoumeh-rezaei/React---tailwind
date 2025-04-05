@@ -74,7 +74,7 @@ export default function Testimonial(){
         ]
       };
     return(
-        <div className="py-10 mb-10">
+        <div className="py-10 mb-10" id='testimonial'>
             <div className="container m-auto">
                 {/*Header section*/}
                 <div>

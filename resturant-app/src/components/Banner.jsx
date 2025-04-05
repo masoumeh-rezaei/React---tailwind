@@ -2,7 +2,7 @@ import BannerImg from '../assets/pngtree-grilled--round.png'
 export default function Banner(){
     return(
         <div>
-            <div className="container m-auto min-h-[620px] py-12 sm:py-0 flex justify-center items-center">
+            <div className="container m-auto min-h-[620px] py-12 sm:py-0 flex justify-center items-center" id='about'>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     {/*Image section*/}
                     <div className='flex justify-center items-center '

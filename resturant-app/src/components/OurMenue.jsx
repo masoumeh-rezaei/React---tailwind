@@ -21,10 +21,10 @@ export default function OurMenue({product}){
         <>
         
                 {/*slider section*/}
-                <div  data-aos='zoom-in'>
+                <div  data-aos='zoom-in' >
                     
                        
-                                <div className='my-8  ' >
+                                <div className='my-8  ' id='menue'>
                                     <div className='flex flex-col gap-4 px-6 py-6 mx-4 rounded-xl'>
                                         {/*img section*/}
                                         <div className='mb-1 flex justify-center'>

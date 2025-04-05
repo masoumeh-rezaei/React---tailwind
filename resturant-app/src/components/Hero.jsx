@@ -1,7 +1,7 @@
 import HeroImg from '../assets/rounded-black-.png'
 export default function Hero(){
     return(
-        <div className="bg-light-blue flex justify-center items-center min-h-[550px] sm:min-h-[600px]">
+        <div className="bg-light-blue flex justify-center items-center min-h-[550px] sm:min-h-[600px]" id='home'>
             <div className="container pb-8 sm:pb-0">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                     {/*Text contenct section */}
